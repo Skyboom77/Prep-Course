@@ -1,4 +1,4 @@
-# Homework: Git
+git # Homework: Git
 
 ### Pre-requisitos
 
@@ -107,7 +107,7 @@ A continuación, escribe lo siguiente en tu terminal:
   $ cd repositorio-henry
   
   $ touch archivo-ejemplo.js
-```
+``` 
 
 Esto añadirá un nuevo archivo llamado "archivo-ejemplo.js" a tu proyecto.
 
