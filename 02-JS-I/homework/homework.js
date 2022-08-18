@@ -1,4 +1,4 @@
-// En estas primeras 6 preguntas, reemplaza `null` por la respuesta
+git // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
 const nuevaString = 'programando JS';
@@ -7,16 +7,16 @@ const nuevaString = 'programando JS';
 const nuevoNum = 0 ;
 
 // Crea una variable booleana:
-const nuevoBool = Falso ;
+const nuevoBool = false ;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - 5 === 5;
+const nuevaResta = 10 - 5 === 5 ;
 
 // Resuelve el siguiente problema matemático:
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 1.05 ;
+const nuevoModulo = 21 % 5 === 1 ;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -107,7 +107,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  x % y = r 
+  var r = x % y 
   return r ;
   
 }
@@ -139,20 +139,26 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-
-return num * num  ;
+var cuad = num * num ;
+return cuad;
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  return num * num * num ;
+  var cu = num * num * num ;
+  return cu ;
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  
+  var cont = 0 ;
+  for (i === exponente - 1) {
+      var resp = num * cont ;
+      cont = resp ;
+      }
+  return cont; 
 }
 
 function redondearNumero(num) {
