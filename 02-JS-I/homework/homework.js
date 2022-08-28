@@ -128,7 +128,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 != 0) {
+  if (num % 2 !== 0) {
     return true ;
   } else {
     return false;  
@@ -250,11 +250,14 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if (letra === 'a' ││ letra === 'e' ││ letra === 'i' ││ letra === 'o' ││ letra === 'u') {
-    return '"Es vocal"' ;
-  } else {
-    return '"Dato inorrecto"' ;
-  }
+  array.vocales (a,e,i,o,u) 
+if ( letra.length === 1 & letra === vocales ) {
+  return '"Es vocal"' ;
+}else {
+  return '"Dato incorrecto"';
+}
+
+  
 }
 
 
