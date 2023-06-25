@@ -1,0 +1,5 @@
+Variables 
+String
+Funciones
+Declaraciones
+Valores Buleanos 
